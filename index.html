@@ -1,15 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
-<meta charset="UTF-8">
-<title>我的第一個網站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郭思妍的小說網站</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<h1>歡迎來到我的網站</h1>
+    <!-- 網站標題與導覽列 [2] -->
+    <header>
+        <h1>郭思妍的小說網站</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">自我介紹</a></li>
+                <li><a href="#novels">各種小說</a></li>
+                <li><a href="#birds">我家小鳥</a></li>
+                <li><a href="#tools">寫作工具</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<p>我是高中資訊科技老師。</p>
+    <!-- 首頁主要內容區 [1, 2] -->
+    <main>
+        <section id="home">
+            <h2>歡迎來到我的作品集</h2>
+            <p>在這裡，我分享自己的短篇小說，讓更多人認識我的作品 [1]。</p>
+            <img src="placeholder-home.jpg" alt="網站主圖" style="width:100%; max-width:600px;">
+        </section>
+
+        <!-- 頁面 1：自我介紹 [2] -->
+        <section id="about">
+            <h2>關於我</h2>
+            <p>我的寫作歷程、年齡與性別介紹...</p>
+        </section>
+
+        <!-- 頁面 2：各種小說 [2] -->
+        <section id="novels">
+            <h2>作品集：各種小說</h2>
+            <p>這裡收錄了我創作的短篇小說 [1]。</p>
+            <!-- 可以在此處加入小說列表連結 -->
+        </section>
+
+        <!-- 頁面 3：我家小鳥 [2] -->
+        <section id="birds">
+            <h2>生活點滴：我家小鳥</h2>
+            <p>看看可愛的小鳥照片！</p>
+            <div class="gallery">
+                <!-- 放置小鳥照片的地方 [2] -->
+            </div>
+        </section>
+
+        <!-- 頁面 4：日常寫作工具分享 [2] -->
+        <section id="tools">
+            <h2>寫作工具分享</h2>
+            <p>推薦我平時使用的手機寫作工具 [2]。</p>
+        </section>
+    </main>
+
+    <!-- 頁尾與聯絡方式 [2] -->
+    <footer>
+        <p>聯絡方式：[請輸入您的聯絡資訊]</p>
+        <p>&copy; 2024 郭思妍的小說網站. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>

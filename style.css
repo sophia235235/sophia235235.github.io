@@ -8,12 +8,13 @@ body {
     background-color: #f9f9f9;
 }
 
-/* 網站標題與導覽列樣式 [2] */
 header {
-    background-color: #4a4a4a;
-    color: white;
+    background-color: #FFD700; /* 金黃色 */
+    color: #333333;           /* 改為深灰色文字，確保易讀性 */
     padding: 1rem 0;
     text-align: center;
+    border-bottom: 2px solid #e6c300; /* 加入稍微深一點的黃色底線增加質感 */
+
 }
 
 nav ul {
